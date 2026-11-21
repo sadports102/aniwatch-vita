@@ -172,12 +172,6 @@ Files the build packs into the VPK:
 - `res/font.ttf`, `res/font_bold.ttf`: the [Outfit](https://fonts.google.com/specimen/Outfit) font (SIL Open Font License)
 - `res/cacert.pem`: CA certificate bundle for HTTPS
 
-### LiveArea images
-
-The LiveArea images aren't part of this repository. `make_livearea.py` builds them
-(`icon0.png`, `bg.png`, `startup.png`, `template.xml` in `sce_sys/`) from your own
-`mascot.png`. Without them the VPK still builds, but you need to remove the
-`sce_sys` FILE lines from `CMakeLists.txt`.
 
 ## Credits
 
